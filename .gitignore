@@ -1,0 +1,22 @@
+# Environment secrets
+.env
+.env.*
+
+# Python virtual environment
+pypro/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# FAISS generated index
+vectorstore/db_faiss/
+
+# Medical reference PDFs
+data/*.pdf
+
+# Logs
+*.log
+search_report.txt
